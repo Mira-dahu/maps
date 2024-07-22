@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Area_And_Exclusion_Zone_Management">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/black"
+
+
+        app:title="    返回"
+
+        app:titleMarginStart="10dp"
+        app:titleTextColor="@color/white"></androidx.appcompat.widget.Toolbar>
+
+    <Button
+        android:id="@+id/hiddenBack2"
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize"
+        android:alpha="0"
+        android:onClick="destroyTheActivity"
+        android:text="Button"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="375dp"
+        android:background="@drawable/ba"
+        android:onClick="destroyTheActivity"></Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:textStyle="bold"
+
+        android:layout_marginTop="59dp"
+        android:text="  区域与禁区管理"
+        android:textColor="@color/white"
+        android:textSize="45dp">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/mark_obz_background"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30.5dp"
+        android:layout_marginTop="146dp"
+        android:layout_marginEnd="30.5dp"
+        android:background="@drawable/radius_border"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_3" />
+
+    <Button
+        android:stateListAnimator="@null"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="415dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/radius_up"
+        android:onClick="startAreaAndExclusionZoneManagementActivity"
+        android:text="区域命名"
+        android:textSize="20dp"
+        >
+
+    </Button>
+    <View
+        android:layout_width="350dp"
+        android:layout_height="3px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="465dp"
+        android:layout_marginEnd="30dp"
+        android:background="#66CCFF"
+        android:backgroundTint="@color/grey"></View>
+
+
+    <Button
+        android:stateListAnimator="@null"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="465dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/radius_down"
+        android:onClick="startRegionalMergingAndSplittingActivity"
+        android:text="区域合并与拆分"
+        android:textSize="20dp"
+        >
+
+    </Button>
+
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="515dp"
+
+        android:layout_marginEnd="30dp"
+        android:text="您可以将地图上的两个或以上数量的房间区域合并为一个区域或折分已合并的区域或拆分已合并的区域"
+        android:textColor="@color/grey"
+        android:textSize="10dp"></TextView>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="540dp"
+
+        android:layout_marginEnd="30dp"
+        android:text="设置禁区"
+        android:textColor="@color/grey"
+        android:textSize="10dp"></TextView>
+
+    <Button
+        android:stateListAnimator="@null"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="555dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/radius_up"
+        android:gravity="center_vertical|left"
+        android:text="      禁区1 每日 19:00-20:00"
+        android:textSize="20dp"
+        >
+
+    </Button>
+
+
+    <Button
+        android:stateListAnimator="@null"
+        android:gravity="center_vertical|left"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="605dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/radius_down"
+        android:onClick="startNewRestrictedAreaActivity"
+        android:text="      新建禁区"
+        android:textSize="20dp"
+        >
+
+    </Button>
+
+    <View
+        android:layout_width="350dp"
+        android:layout_height="3px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="605dp"
+        android:layout_marginEnd="30dp"
+        android:background="#66CCFF"
+        android:backgroundTint="@color/grey"></View>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="615dp"
+        android:layout_marginEnd="40dp"
+        android:src="@mipmap/img">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="570dp"
+        android:layout_marginEnd="40dp"
+        android:src="@mipmap/img">
+
+    </ImageView>
+
+</RelativeLayout>

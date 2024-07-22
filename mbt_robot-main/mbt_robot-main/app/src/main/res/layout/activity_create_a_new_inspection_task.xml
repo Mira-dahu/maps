@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Create_A_New_Inspection_Task">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/black"
+
+
+        app:title="    取消"
+
+        app:titleMarginStart="10dp"
+        app:titleTextColor="@color/white"></androidx.appcompat.widget.Toolbar>
+
+    <Button
+        android:id="@+id/hiddenBack5"
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize"
+        android:alpha="0"
+        android:onClick="destroyTheActivity"
+        android:text="Button"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="375dp"
+        android:background="@drawable/ba"
+        android:onClick="destroyTheActivity"></Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:textStyle="bold"
+
+        android:layout_marginTop="59dp"
+        android:text="  新建巡检任务"
+        android:textColor="@color/white"
+        android:textSize="45dp">
+    </TextView>
+
+    <Button
+        android:stateListAnimator="@null"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/radius_up"
+        android:text="      任务名称"
+        android:gravity="center_vertical|left"
+        android:textColor="@color/black"
+        android:textSize="18dp"></Button>
+
+    <Button
+        android:stateListAnimator="@null"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="center_vertical|left"
+        android:background="@color/white"
+        android:text="      巡检日期"
+        android:textColor="@color/black"
+        android:textSize="18dp"></Button>
+
+    <View
+        android:layout_width="250dp"
+        android:layout_height="3px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/grey">
+    </View>
+
+    <Button
+        android:stateListAnimator="@null"
+        android:layout_width="350dp"
+        android:layout_height="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/white"
+        android:text="      巡检时间"
+        android:gravity="center_vertical|left"
+        android:textColor="@color/black"
+        android:textSize="18dp"></Button>
+
+    <View
+        android:layout_width="250dp"
+        android:layout_height="3px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/grey">
+    </View>
+
+    <Button
+        android:stateListAnimator="@null"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="center_vertical|left"
+        android:background="@color/white"
+        android:text="      重复"
+        android:textColor="@color/black"
+        android:textSize="18dp"></Button>
+    <View
+        android:layout_width="250dp"
+        android:layout_height="3px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/grey">
+    </View>
+    <Button
+        android:stateListAnimator="@null"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="center_vertical|left"
+        android:background="@color/white"
+        android:text="      结束时间"
+        android:textColor="@color/black"
+        android:textSize="18dp"></Button>
+    <View
+        android:layout_width="250dp"
+        android:layout_height="3px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/grey">
+    </View>
+
+    <Button
+        android:stateListAnimator="@null"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="center_vertical|left"
+        android:background="@drawable/radius_down"
+        android:text="      巡检方式"
+        android:textColor="@color/black"
+        android:onClick="startInspectionMethodActivity"
+        android:textSize="18dp"></Button>
+
+    <View
+        android:layout_width="250dp"
+        android:layout_height="3px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/grey">
+    </View>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="40dp"
+        android:src="@mipmap/img">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="40dp"
+        android:src="@mipmap/img">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="40dp"
+        android:src="@mipmap/img">
+
+    </ImageView>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="310dp"
+        android:layout_marginEnd="40dp"
+        android:src="@mipmap/img">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="40dp"
+        android:src="@mipmap/img"></ImageView>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="410dp"
+        android:layout_marginEnd="40dp"
+        android:src="@mipmap/img">
+
+    </ImageView>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.Light.NoActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name=".Other"
+            android:exported="false" />
+        <activity
+            android:name=".Inspection_Method"
+            android:exported="false" />
+        <activity
+            android:name=".Create_A_New_Inspection_Task"
+            android:exported="false" />
+        <activity
+            android:name=".Patrol_Settings"
+            android:exported="false" />
+        <activity
+            android:name=".Mark_new_observation_points"
+            android:exported="false" />
+        <activity
+            android:name=".Point_Markers"
+            android:exported="false" />
+        <activity
+            android:name=".New_Restricted_Area"
+            android:exported="false" />
+        <activity
+            android:name=".Regional_Merging_And_Splitting"
+            android:exported="false" />
+        <activity
+            android:name=".Area_Naming"
+            android:exported="false" />
+        <activity
+            android:name=".Area_And_Exclusion_Zone_Management"
+            android:exported="false" />
+        <activity
+            android:name=".Mark_Direction"
+            android:exported="false" />
+        <activity
+            android:name=".Rotate_Map"
+            android:exported="false" />
+        <activity
+            android:name=".Rotation_And_Direction"
+            android:exported="false" />
+        <activity
+            android:name=".Manage_Maps"
+            android:exported="false" />
+        <activity
+            android:name=".Create_A_Map"
+            android:exported="false" />
+        <activity
+            android:name=".Add_Map"
+            android:exported="false" />
+        <activity
+            android:name=".Map_Settings"
+            android:exported="false" />
+        <activity
+            android:name=".Setting"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

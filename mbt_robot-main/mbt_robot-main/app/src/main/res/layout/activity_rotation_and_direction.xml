@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Rotation_And_Direction">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/black"
+
+
+        app:title="    返回"
+
+        app:titleMarginStart="10dp"
+        app:titleTextColor="@color/white"></androidx.appcompat.widget.Toolbar>
+
+    <Button
+        android:id="@+id/hiddenBack16"
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize"
+        android:alpha="0"
+        android:onClick="destroyTheActivity"
+        android:text="Button"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="375dp"
+        android:background="@drawable/ba"
+        android:onClick="destroyTheActivity"></Button>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:textStyle="bold"
+
+        android:layout_marginTop="59dp"
+        android:text="  旋转与方向"
+        android:textColor="@color/white"
+        android:textSize="45dp">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/mark_obz_background"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30.5dp"
+        android:layout_marginTop="146dp"
+        android:layout_marginEnd="30.5dp"
+        android:background="@drawable/radius_border"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_3" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="515dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/radius_border"
+        android:onClick="startRotateMapActivity"
+        android:text="旋转地图"
+        android:textSize="20dp"
+        >
+
+    </Button>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="565dp"
+
+        android:layout_marginEnd="30dp"
+        android:text="您可以旋转地图到您认为合适的角度展示"
+        android:textColor="@color/grey"
+        android:textSize="10dp"></TextView>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="585dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/radius_border"
+        android:onClick="startMarkDirectionActivity"
+        android:text="标记方向"
+        android:textSize="20dp"
+        >
+
+    </Button>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="635dp"
+
+        android:layout_marginEnd="30dp"
+        android:text="您可以在地图上标记东南西北，以便对对机器人下达指令"
+        android:textColor="@color/grey"
+        android:textSize="10dp"></TextView>
+
+
+</RelativeLayout>

@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Setting">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="1dp"
+
+        android:text="  设置"
+        android:textColor="@color/white"
+        android:textSize="45dp"
+        android:textStyle="bold"></TextView>
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="83dp"
+        app:title="                   豆豆妈妈"
+        app:subtitle="                        女主人 妈妈"
+
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/radius_up">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="99dp"
+        android:layout_marginEnd="307dp"
+        android:src="@drawable/img_4"></ImageView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="78dp"
+        android:src="@mipmap/img_2">
+
+    </ImageView>
+
+    <View
+        android:layout_width="275dp"
+        android:layout_height="3px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="161dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/grey">
+    </View>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="163dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/white"
+        android:text="      成员设置"
+        android:gravity="center_vertical|left"
+        android:textSize="18dp"
+        android:textColor="@color/black"></TextView>
+
+    <View
+        android:layout_width="270dp"
+        android:layout_height="3px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="211dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/grey">
+    </View>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="173dp"
+        android:layout_marginEnd="79dp"
+        android:src="@mipmap/img_1">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="213dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/radius_down"
+        android:text="      设备管理"
+        android:gravity="center_vertical|left"
+        android:textSize="18dp"
+        android:textColor="@color/black"></TextView>
+
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="283dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/radius_up"
+        android:text="             机器人设置"
+        android:gravity="center_vertical|left"
+        android:textSize="18dp"
+        android:textColor="@color/black"></TextView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="295dp"
+        android:layout_marginEnd="334dp"
+        android:src="@mipmap/p1"></ImageView>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="333dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/white"
+        android:text="             应用程序设置"
+        android:gravity="center_vertical|left"
+        android:textSize="18dp"
+        android:textColor="@color/black"></TextView>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="345dp"
+        android:layout_marginEnd="337dp"
+        android:src="@mipmap/p2"></ImageView>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="383dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/white"
+        android:text="             消息设置"
+        android:gravity="center_vertical|left"
+        android:textSize="18dp"
+        android:textColor="@color/black"></TextView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="395dp"
+        android:layout_marginEnd="334dp"
+        android:src="@mipmap/p3"></ImageView>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/radius_down"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical|left"
+        android:text="             地图管理"
+        android:textSize="18dp"
+        android:onClick="startMapSettingsActivity"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="432dp"
+        android:layout_marginEnd="30dp"
+        android:stateListAnimator="@null" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="445dp"
+        android:layout_marginEnd="334dp"
+        android:src="@mipmap/p4"></ImageView>
+
+
+    <View
+        android:layout_width="290dp"
+        android:layout_height="3px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="333dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/grey">
+    </View>
+
+    <View
+        android:layout_width="290dp"
+        android:layout_height="3px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="383dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/grey">
+    </View>
+
+    <View
+        android:layout_width="290dp"
+        android:layout_height="3px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="433dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/grey">
+    </View>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="503dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/radius_up"
+        android:text="             帮助与反馈"
+        android:gravity="center_vertical|left"
+        android:textSize="18dp"
+        android:textColor="@color/black"></TextView>
+
+
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="513dp"
+        android:layout_marginEnd="334dp"
+        android:src="@mipmap/p5"></ImageView>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="553dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/white"
+        android:gravity="center_vertical|left"
+        android:text="             关于"
+        android:textColor="@color/black"
+        android:textSize="18dp"></TextView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="563dp"
+        android:layout_marginEnd="334dp"
+        android:src="@mipmap/p6"></ImageView>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="603dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/radius_down"
+        android:gravity="center_vertical|left"
+        android:text="             软件更新"
+        android:textColor="@color/black"
+        android:textSize="18dp"></TextView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="613dp"
+        android:layout_marginEnd="334dp"
+        android:src="@mipmap/p7"></ImageView>
+
+    <View
+        android:layout_width="290dp"
+        android:layout_height="3px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="553dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/grey">
+    </View>
+
+    <View
+        android:layout_width="290dp"
+        android:layout_height="3px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="603dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/grey">
+    </View>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="40dp"
+        android:src="@mipmap/img">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="174dp"
+        android:layout_marginEnd="40dp"
+        android:src="@mipmap/img">
+
+    </ImageView>
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="294dp"
+        android:layout_marginEnd="40dp"
+        android:src="@mipmap/img">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="344dp"
+        android:layout_marginEnd="40dp"
+        android:src="@mipmap/img">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="394dp"
+        android:layout_marginEnd="40dp"
+        android:src="@mipmap/img">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="444dp"
+        android:layout_marginEnd="40dp"
+        android:src="@mipmap/img">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="512dp"
+        android:layout_marginEnd="40dp"
+        android:src="@mipmap/img">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="562dp"
+        android:layout_marginEnd="40dp"
+        android:src="@mipmap/img">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="612dp"
+        android:layout_marginEnd="40dp"
+        android:src="@mipmap/img">
+
+    </ImageView>
+
+</RelativeLayout>

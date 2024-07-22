@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Manage_Maps">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/black"
+
+
+        app:title="    地图设置"
+
+        app:titleMarginStart="10dp"
+        app:titleTextColor="@color/white">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <Button
+        android:id="@+id/hiddenBack7"
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize"
+        android:alpha="0"
+        android:onClick="destroyTheActivity"
+        android:text="Button"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="375dp"
+        android:background="@drawable/ba"
+        android:onClick="destroyTheActivity"></Button>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:textStyle="bold"
+
+        android:layout_marginTop="59dp"
+        android:text="  地图1设置"
+        android:textColor="@color/white"
+        android:textSize="45dp">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/Tm1"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="146dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/radius_up"
+        android:src="@drawable/img_3">
+
+    </ImageView>
+
+
+    <View
+        android:layout_width="350dp"
+        android:layout_height="3px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="395dp"
+        android:layout_marginEnd="30dp"
+        android:background="#66CCFF"
+        android:backgroundTint="@color/grey"></View>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="396dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/white"
+        android:onClick="startRotationAndDirectionActivity"
+
+        android:stateListAnimator="@null"
+        android:text="旋转与方向                                    "
+        android:textColor="@color/black"
+        android:textSize="18dp"></Button>
+
+    <Button
+        android:stateListAnimator="@null"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="446dp"
+        android:layout_marginEnd="30dp"
+
+
+        android:background="@color/white"
+        android:text="区域与禁区管理                           "
+        android:textColor="@color/black"
+        android:onClick="startAreaAndExclusionZoneManagementActivity"
+        android:textSize="18dp"></Button>
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="3px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="445dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/grey">
+    </View>
+
+    <Button
+        android:stateListAnimator="@null"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="496dp"
+        android:layout_marginEnd="30dp"
+        android:onClick="startPointMarkersActivity"
+
+        android:background="@color/white"
+        android:text="点位标记                                       "
+        android:textColor="@color/black"
+        android:textSize="18dp"></Button>
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="3px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="495dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/grey">
+    </View>
+
+    <Button
+        android:stateListAnimator="@null"
+        android:layout_width="350dp"
+        android:layout_height="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="546dp"
+        android:layout_marginEnd="30dp"
+
+        android:background="@color/white"
+        android:text="巡检设置                                       "
+        android:textColor="@color/black"
+        android:onClick="startActivity14"
+        android:textSize="18dp"></Button>
+    <View
+        android:layout_width="300dp"
+        android:layout_height="3px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="545dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/grey">
+    </View>
+
+    <Button
+        android:stateListAnimator="@null"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="596dp"
+        android:layout_marginEnd="30dp"
+
+        android:background="@drawable/radius_down"
+        android:text="其他                                             "
+        android:textColor="@color/black"
+        android:onClick="startMapOtherSettingActivity"
+        android:textSize="18dp"></Button>
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="3px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="595dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/grey">
+    </View>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="405dp"
+        android:layout_marginEnd="40dp"
+        android:src="@mipmap/img">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="455dp"
+        android:layout_marginEnd="40dp"
+        android:src="@mipmap/img">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="505dp"
+        android:layout_marginEnd="40dp"
+        android:src="@mipmap/img">
+
+    </ImageView>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="555dp"
+        android:layout_marginEnd="40dp"
+        android:src="@mipmap/img">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="605dp"
+        android:layout_marginEnd="40dp"
+        android:src="@mipmap/img">
+
+    </ImageView>
+
+
+</RelativeLayout>

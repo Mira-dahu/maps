@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Point_Markers">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp">
+
+        <LinearLayout
+            android:id="@+id/ll_idea_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/black"
+
+
+            app:title="    返回"
+
+            app:titleMarginStart="10dp"
+            app:titleTextColor="@color/white"></androidx.appcompat.widget.Toolbar>
+
+        <Button
+            android:id="@+id/hiddenBack14"
+            android:layout_width="wrap_content"
+            android:layout_height="?attr/actionBarSize"
+            android:alpha="0"
+            android:onClick="destroyTheActivity"
+            android:text="Button"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="375dp"
+            android:background="@drawable/ba"
+            android:onClick="destroyTheActivity"></Button>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-2dp"
+            android:textStyle="bold"
+
+            android:layout_marginTop="59dp"
+            android:text="  点位标记"
+            android:textColor="@color/white"
+
+            android:textSize="45dp">
+        </TextView>
+
+
+
+
+
+        <ImageView
+            android:id="@+id/mark_obz_background"
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="146dp"
+            android:layout_marginEnd="30.5dp"
+            android:background="@drawable/radius_border"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_3" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="415dp"
+
+            android:layout_marginEnd="30dp"
+            android:text="标记观察点"
+            android:textColor="@color/grey"
+            android:textSize="10dp"
+            >
+
+        </TextView>
+
+        <Button
+            android:gravity="center_vertical|left"
+            android:stateListAnimator="@null"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="435dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/radius_up"
+
+            android:text="      观察点1"
+            android:textSize="20dp"
+            >
+
+        </Button>
+
+
+        <Button
+            android:gravity="center_vertical|left"
+            android:stateListAnimator="@null"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="485dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/radius_down"
+            android:onClick="startActivity13"
+            android:text="      标记新观察点"
+            android:textSize="20dp"
+            >
+
+        </Button>
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="3px"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="485dp"
+            android:layout_marginEnd="30dp"
+            android:background="#66CCFF"
+            android:backgroundTint="@color/grey"></View>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="445dp"
+            android:layout_marginEnd="40dp"
+            android:src="@mipmap/img">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="495dp"
+            android:layout_marginEnd="40dp"
+            android:src="@mipmap/img">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="535dp"
+
+            android:layout_marginEnd="30dp"
+            android:text="标记完观察点后，您可以让机器人逐一对观察点进行移动或巡检"
+            android:textColor="@color/grey"
+            android:textSize="10dp"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="565dp"
+
+            android:layout_marginEnd="30dp"
+            android:text="标记家具与物品"
+            android:textColor="@color/grey"
+            android:textSize="10dp"
+            >
+
+        </TextView>
+
+
+        <Button
+            android:gravity="center_vertical|left"
+            android:stateListAnimator="@null"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="585dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/radius_up"
+
+            android:text="      沙发  X75.2  Y20.7"
+            android:textSize="20dp"
+            >
+
+        </Button>
+
+
+        <Button
+            android:gravity="center_vertical|left"
+            android:stateListAnimator="@null"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="635dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/radius_down"
+
+            android:text="      标记新物品"
+            android:textSize="20dp"
+            >
+
+        </Button>
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="3px"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="635dp"
+            android:layout_marginEnd="30dp"
+            android:background="#66CCFF"
+            android:backgroundTint="@color/grey"></View>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="595dp"
+            android:layout_marginEnd="40dp"
+            android:src="@mipmap/img">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="645dp"
+            android:layout_marginEnd="40dp"
+            android:src="@mipmap/img">
+
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="685dp"
+
+            android:layout_marginEnd="30dp"
+            android:text="标记完家具与物品后，您可以让机器人到家具或物品旁"
+            android:textColor="@color/grey"
+            android:textSize="10dp"
+            >
+
+
+        </TextView>
+
+        <Button
+            android:gravity="center_vertical|left"
+            android:stateListAnimator="@null"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="715dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/radius_border"
+
+            android:text="      重新标记充电桩"
+            android:textSize="20dp"
+            >
+
+        </Button>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="725dp"
+            android:layout_marginEnd="40dp"
+            android:src="@mipmap/img">
+
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="765dp"
+
+            android:layout_marginEnd="30dp"
+            android:text="当您移动充电桩至新位置后,您可以在地图上重新标记充电桩位置,以免机器人无法找到充电桩充电"
+            android:textColor="@color/grey"
+            android:textSize="10dp"
+            >
+
+
+        </TextView>
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
