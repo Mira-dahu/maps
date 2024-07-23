@@ -31,17 +31,17 @@
 2. 克隆此仓库:  
     ```bash  
     git clone https://github.com/yourusername/flutter-map-app.git  
-    ```   
+    ```
 
 3. 进入项目目录:  
     ```bash  
     cd flutter-map-app  
-    ```   
+    ```
 
 4. 安装依赖:  
     ```bash  
     flutter pub get  
-    ```   
+    ```
 
 5. 运行应用:  
     ```bash  
@@ -85,7 +85,7 @@ lib/
 │   └── restricted_area_painter.dart  
 └── services/  
     └── api_service.dart
-``` 
+```
 ### 关键组件
 
 - **InteractiveViewer**: 用于实现地图的缩放功能
@@ -154,6 +154,3 @@ Future<void> sendData() async {
 4. 推送到分支 (`git push origin feature/AmazingFeature`)  
 5. 开启一个 Pull Request  
 
-## 许可证  
-
-本项目采用 MIT 许可证 - 查看 LICENSE.md 文件了解详情。
